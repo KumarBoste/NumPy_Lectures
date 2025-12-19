@@ -6,10 +6,7 @@ for i in range(1, 10, 1):
 
 [i for i in range(1, 10, 1)]
 
-
-
-
-
+# numpy > list comprehension > for loop
 
 # Identical Matrix
 np.eye((3), dtype = int)
