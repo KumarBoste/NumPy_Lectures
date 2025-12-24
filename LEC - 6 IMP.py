@@ -55,6 +55,9 @@ for i in Numerical_col :
 
 report
 
+# Prepare CSV file
+report.to_csv('Numerical_stats')
+
 
 # One way Anova Technique : Single Factor Analysis
 '''
@@ -81,3 +84,8 @@ else:
 
 # Installing Researchpy Library
 !pip install Researchpy
+
+# Import researchpy Library
+import researchpy as rp
+
+rp.codebook(Data)
