@@ -76,3 +76,8 @@ if (p_value < 0.05 ):
   print("Reject Null Hypothesis")
 else:
   print("Accpet Null Hypothesis")
+
+
+
+# Installing Researchpy Library
+!pip install Researchpy
